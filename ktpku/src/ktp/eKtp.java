@@ -11,19 +11,18 @@ import java.util.Scanner;
 
 public class eKtp {
 	
-	static String nik;
-	static String nama;
-	static String ttl;
-	static String jenisKelamin;
-	static String alamat;
-	static String rt,rw;
-	static String desa;
-	static String kec;
-	static String agama;
-	static String status;
-	static String kerja;
-	static String warga;
-	static String berlaku;
+	static String Nik;
+	static String Nama;
+	static String TTL;
+	static String Jekel;
+	static String Alamat;
+	static String Rt,Rw;
+	static String Desa;
+	static String Kec;
+	static String Agama;
+	static String Status;
+	static String Pekerjaan;
+	static String Berlaku;
 	
 	static boolean running;
 	static String ktp[] = new String [200];
