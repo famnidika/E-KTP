@@ -12,19 +12,19 @@ import java.util.Scanner;
 
 public class kuykuy {
 
-	static String nik;
-	static String nama;
-	static String ttl;
-	static String jeniskelamin;
-	static String alamat;
-	static String rt,rw;
-	static String desa;
-	static String kec;
-	static String agama;
-	static String status;
-	static String kerja;
-	static String warga;
-	static String beraku;
+	static String Nik;
+	static String Nama;
+	static String TTL;
+	static String Jekel;
+	static String Alamat;
+	static String RtRw;
+	static String Desa;
+	static String Kec;
+	static String Agama;
+	static String Status;
+	static String Kerja;
+	static String Warga;
+	static String Beraku;
 	
 	static boolean running;
 	static String ktp[] = new String[200];
@@ -53,7 +53,7 @@ public class kuykuy {
 			break;
 		}
                 
-		{
+		try{
 			for(int i = 0; i < jumlah; i++){
 				System.out.println("Data ke "+(i+1));
 				System.out.println("NIK						:");
